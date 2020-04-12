@@ -1,7 +1,5 @@
 # Project - Data Pipelines with Airflow
 
-This is part of Udacity Data Engineering Program, and this repository is meant to document my progress towards Data Pipelines with Airflow project completion.
-
 ## Project Context and Purpose
 A music streaming company, Sparkify, has decided that it is time to introduce more automation and monitoring to their data warehouse ETL pipelines and come to the conclusion that the best tool to achieve this is Apache Airflow.
 
@@ -11,7 +9,7 @@ The source data resides in S3 and needs to be processed in Sparkify's data wareh
 
 
 ## Project Description
-In this project, I will apply what I've learned on Apache Airflow and data pipelines to build an ETL pipeline. To complete the project, I will need to load data from S3, process the data into analytics tables using Apache Airflow, and load them back into S3.
+In this project, I will apply Apache Airflow and data pipelines to build an ETL pipeline. To complete the project, I will need to load data from S3, process the data into analytics tables using Apache Airflow, and load them back into S3.
 
 
 ## Dataset
