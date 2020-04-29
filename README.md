@@ -54,6 +54,13 @@ And below is an example of what part of a single log file, 2018-11-01-events.jso
 
 ## Run Project Locally
 - Install Airflow, create variable AIRFLOW_HOME and AIRFLOW_CONFIG with the appropiate paths, and place dags and plugins on airflor_home directory.
+  - `export AIRFLOW_HOME=~/airflow`
+  - `pip install apache-airflow`
+  - `pip install postgres`
+  - `pip install gunicorn`
+  - `airflow version` to check package version
+  - `airflow initdb` to initialize database
+  - `airflow webserver -p 8080` inside of `airflow` folder
 - Initialize Airflow data base with airflow initdb, and open webserver with airflow webserver
 - Access the server http://localhost:8080 and create:
   - AWS Connection 
@@ -69,3 +76,4 @@ And below is an example of what part of a single log file, 2018-11-01-events.jso
     - Login: awsuser
     - Password: the password created when launching the Redshift cluster
     - Port: 5439
+
