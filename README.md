@@ -59,9 +59,9 @@ And below is an example of what part of a single log file, 2018-11-01-events.jso
   - `pip install postgres`
   - `pip install gunicorn`
   - `airflow version` to check package version
+- Initialize Airflow data base with `airflow initdb`, and open webserver with `airflow webserver`
   - `airflow initdb` to initialize database
   - `airflow webserver -p 8080` inside of `airflow` folder
-- Initialize Airflow data base with airflow initdb, and open webserver with airflow webserver
 - Access the server http://localhost:8080 and create:
   - AWS Connection 
     - Conn Id: aws_credentials
