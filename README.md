@@ -58,6 +58,7 @@ And below is an example of what part of a single log file, 2018-11-01-events.jso
   - `pip install apache-airflow`
   - `pip install postgres`
   - `pip install gunicorn`
+  - `pip install boto3`
   - `airflow version` to check package version
 - Initialize Airflow data base with `airflow initdb`, and open webserver with `airflow webserver`
   - `airflow initdb` to initialize database
